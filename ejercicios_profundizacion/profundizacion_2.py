@@ -31,5 +31,38 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
   entienda de que se está hablando.
 '''
 
+from errno import EADDRNOTAVAIL
+
+
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+
+#solicitud de datos
+print("Ingrese su nombre completo:")
+nombre_completo = str(input())
+print("ingrese su numero de DNI:")
+numero_dni = int(input())
+print("Ingrese su edad:")
+edad = int(input())
+print("Ingrese su altura:")
+altura = float(input())
+print("Nombre y apellido:" , nombre_completo , "DNI:" , numero_dni)
+print("")
+print("Nombre y apellido:" , nombre_completo , "Edad:" , edad , "Altura" , altura)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

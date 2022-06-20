@@ -23,3 +23,7 @@ palabra_3 = str(input())
 # De cada palabra debe tomar la primera letra y armar el acrónimo
 # Ejemplo: Alumbrado, barrido y limpieza --> ABL
 # Imprimir el resultado en pantalla
+caracter_1 = palabra_1[0]
+caracter_2 = palabra_2[0]
+caracter_3 = palabra_3[0]
+print("El acronimo de las palabras es: ", caracter_1 + caracter_2 + caracter_3)

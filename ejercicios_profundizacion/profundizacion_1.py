@@ -31,3 +31,27 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+print("Ingrese el primer numero de la operacion")
+numero_1 = int(input())
+print("Ingrese el segundo numero de la operacion")
+numero_2 = int(input())
+#suma
+suma_1 = numero_1 + numero_2
+print("La suma entre", numero_1 , "y" , numero_2 , "es:" , suma_1)
+print("")
+#resta
+resta = numero_1 - numero_2
+print("La resta entre", numero_1 , "y" , numero_2 , "es:" , resta)
+print("")
+#multiplicacion
+multiplicacion = numero_1 * numero_2
+print("La multiplicacion entre", numero_1 , "y" , numero_2 , "es:" , multiplicacion)
+print("")
+#division
+division = numero_1 / numero_2
+print("La division entre", numero_1 , "y" , numero_2 , "es:" , division)
+print("")
+#potencia
+potencia = numero_1 ** numero_2
+print("La potencia entre", numero_1 , "y" , numero_2 , "es:" , potencia)
+
